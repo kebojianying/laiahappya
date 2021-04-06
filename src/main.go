@@ -4,20 +4,20 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	Cuto "github.com/diiyw/cuto"
+	"github.com/diiyw/cuto"
 	"log"
 	"net/http"
 	"strings"
 )
 
 func main() {
-	browser, err := Cuto.NewBrowser(
-		Cuto.Debug())
+	browser, err := cuto.NewBrowser(
+		cuto.Debug())
 	if err != nil {
 		log.Println(err)
 	}
 	//defer browser.Close()
-	// 打开百度首页
+
 	tab, err := browser.Open("https://www.bet365.com/#/HO/")
 	if err != nil {
 		log.Println(err)
