@@ -185,6 +185,10 @@ npm install
 
 # develop
 npm run dev
+
+#someone have some problem plese delete directroy node_modules try agin
+npm install
+npm run dev
 ```
 
 This will automatically open http://localhost:9527
