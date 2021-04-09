@@ -10,3 +10,6 @@ golang higher http://www.topgoer.com/
 
 
 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe
+
+
+https://www.kaifaxueyuan.com/database/sqlite/golang-access-sqlite.html
